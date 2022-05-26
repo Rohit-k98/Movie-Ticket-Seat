@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./sceipt.js" defer></script>
+</head>
+
+<body>
+
+    <div class="pickMovie">
+        <header>Pick a movie: </header>
+        <select name="What" id="" class="select">
+            <option class="movie-list" value="350">Avengers Endgame</option>
+            <option class="movie-list" value="220">Koolie No. 01</option>
+            <option class="movie-list" value="300">X-men Apcalypse</option>
+            <option class="movie-list" value="250">Narnia</option>
+            <option class="movie-list" value="120">Ashiqui 2</option>
+        </select>
+    </div>
+    <div class="seatDeclare">
+        <ul class="seat-deck">
+            <li>
+                <div class="seat"></div>
+            </li>
+            <li>N/A</li>
+        </ul>
+        <ul class="seat-deck">
+            <li>
+                <div class=" seat Selected-seat"></div>
+            </li>
+            <li>Selected</li>
+        </ul>
+        <ul class="seat-deck">
+            <li>
+                <div class="seat Occuoied-seat"></div>
+            </li>
+            <li>Occuoied</li>
+        </ul>
+    </div>
+
+    <div class="screen"><img src="./asests/cinema-screen.png" alt=""></div>
+    <div class="people">
+        <ul class="seat-row">
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Occuoied-seat"></div>
+            <div class="seat Occuoied-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+        </ul>
+        <ul class="seat-row">
+            <div class="seat Occuoied-seat"></div>
+            <div class="seat Occuoied-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+        </ul>
+        <ul class="seat-row">
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Occuoied-seat"></div>
+            <div class="seat Occuoied-seat"></div>
+            <div class="seat Occuoied-seat"></div>
+            <div class="seat Na-seat"></div>
+        </ul>
+        <ul class="seat-row">
+            <div class="seat Occuoied-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+        </ul>
+        <ul class="seat-row">
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+        </ul>
+        <ul class="seat-row">
+            <div class="seat Na-seat"></div>
+            <div class="seat Occuoied-seat"></div>
+            <div class="seat Occuoied-seat"></div>
+            <div class="seat Occuoied-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+        </ul>
+        <ul class="seat-row">
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+        </ul>
+        <ul class="seat-row">
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Na-seat"></div>
+            <div class="seat Occuoied-seat"></div>
+            <div class="seat Occuoied-seat"></div>
+        </ul>
+    </div>
+
+    <p class="statement">You have selected <span id="hmSeat"></span> seats. Total cost is <span id="totalCost"></span>
+        Rs.</p>
+
+</body>
+
+</html>
